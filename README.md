@@ -1,7 +1,7 @@
 # Data-Virtualisation-Assignment
 This repository contains the documentation deliverables for my individual Data Virtualization project built in Denodo. I designed an end-to-end virtualized reporting solution that integrates 7 retail CSV datasets into a single business-ready Reporting View (RV), then published it as a REST web service for lightweight downstream consumption.
 
-📌 Project Overview
+#📌 Project Overview
 
 Retail operations generate large volumes of sales and inventory data, but when stored across disconnected sources, decision-making becomes slow and error-prone.
 
@@ -19,7 +19,7 @@ REST-based real-time data access
 
 The solution removes manual data consolidation and supports data-driven retail decisions.
 
-🏗 Architecture
+#🏗 Architecture
 
 The system follows a layered Denodo virtualization architecture:
 
@@ -51,7 +51,7 @@ Customers (extensible)
 
 Brands (reference)
 
-🔧 Feature Engineering
+#🔧 Feature Engineering
 
 Key engineered metrics include:
 
@@ -71,7 +71,7 @@ Derived time fields (year/month)
 
 These transformations convert raw operational data into management-level KPIs.
 
-📊 Final Integrated View
+#📊 Final Integrated View
 
 The final virtualized dataset includes:
 
